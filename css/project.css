@@ -6,11 +6,11 @@ body{
 
 html,
 body{
-  height: 100%;
+  height: 70%;
 }
 
 #header {
-	height: 100%;
+	height: 70%;
   overflow: hidden;
 }
 
@@ -48,7 +48,7 @@ h3 {
 }
 
 .navigater-list{
-	font-family: Arial,simsun,"宋体""Microsoft YaHei","微软雅黑";
+	font-family: Arial,simsun,"宋体","Microsoft YaHei","微软雅黑";
 	color:#444444;
 	font-weight: 100;
 	font-size: 1.2em;
@@ -64,9 +64,10 @@ h3 {
 }
 
 .article-entry{
-  position: absolute;
-  top:150px;
-  font-family: Arial,simsun,"宋体""Microsoft YaHei","微软雅黑";
+  position: relative;
+  bottom:200px;
+  overflow: hidden;
+  font-family: Arial,simsun,"宋体","Microsoft YaHei","微软雅黑";
   letter-spacing: 1px;
   font-size: 40px;
   margin-bottom: 0px;
@@ -74,7 +75,8 @@ h3 {
   letter-spacing: 1px;
   line-height: 30px;
   max-width: 1050px;
-  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
   padding: 0 20px;
 }
 
